@@ -1,0 +1,29 @@
+git init                        //Initialize repository 
+git clone                       //Clone repository
+
+git add .                       //Add all files
+git add specificFilename        //Add a certain file only
+
+git commit -m "message"         //Create a commit + a necessary message describing what was changed
+
+git status                      //Obtain information on which files have been edited and are ready to commit 
+
+git log                         //Opens a file with all previous commits with timestamps
+
+git push                        // Code -> Git
+git pull                        // Code <- Git
+
+git branch                      // get a list of all branches 
+
+git branch newBranchName        //Create a new branch 
+
+git branch -d branchName        //Delete a branch
+
+git checkout branchName         //Switch to a certain branch
+
+git merge                       //Merge branch
+
+git remote add origin gitLink 
+gitpush -u origin master 
+
+
